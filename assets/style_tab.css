@@ -1,0 +1,51 @@
+/* NAVBAR CHANGES */
+#navbar .search-div {
+    display: none;
+}
+#close {
+    display: block;
+    font-size: 2rem;
+}
+
+#search-icon {
+    display: block;
+}
+/* SMALL NAVBAR STYLING */
+#small-navbar {
+    width: 100%;
+    display: none;
+    padding-bottom: 3rem;
+}
+#small-navbar:target {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 50;
+    background-color: black;
+    top: 4rem;
+    animation: topDown 0.5s ease alternate;
+}
+@keyframes topDown {
+    from {
+        transform: translateY(-200%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+#small-navbar .search-div {
+    margin: 2rem;
+}
+#small-navbar .search-div input {
+    padding: 0.3rem 2rem;
+}
+#small-navbar .queue {
+    display: none;
+}
+main {
+    padding: 6rem 2rem !important;
+}
+aside {
+    right: 2rem !important;
+}

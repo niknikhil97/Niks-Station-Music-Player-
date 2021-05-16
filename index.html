@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Niks Station Music Player">
+    <meta name="keywords" content="niks, station, music, player">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niks Station</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/general_style.css" type="text/css">
+    <link rel="stylesheet" href="assets/style.css" type="text/css">
+    <link media="screen and (max-width:900px)" rel="stylesheet" href="assets/style_tab.css" type="text/css">
+    <link media="screen and (max-width:700px)" rel="stylesheet" href="assets/style_mobile.css" type="text/css">
+    <script src="https://kit.fontawesome.com/acb379f12b.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+                <div id="logo-div">
+                    <img src="assets/images/Website Logo/Logo.png" alt="website logo">
+                    <div id="site-name-div">
+                        <p>Niks</p>
+                        <p>Studio</p>
+                    </div>
+                </div>
+                <a href="#">Home</a>
+                <div class="search-div" >
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search">
+                    <i class="fas fa-microphone-alt"></i>
+                </div>
+                <a href="#small-navbar">
+                    <i class="fas fa-search" id="search-icon"></i>
+                </a>
+                <a id="ham-container" href="#small-navbar">
+                    <div class="ham"></div>
+                    <div class="ham"></div>
+                    <div class="ham"></div>
+                </a>
+
+                <i class="fas fa-bell"></i>
+                <img src="assets/images/profile_picture.jpg">
+            </div>
+        </nav>
+    </header>
+
+
+    <div id="small-navbar">
+        <a id="close" href="#">
+            <i class="far fa-times-circle"></i>
+        </a>
+        <div class="search-div" >
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search">
+            <i class="fas fa-microphone-alt"></i>
+        </div>
+        <a href="#">Home</a>
+        <div class="queue">
+            <ol class="queue-container">
+
+                <h1 class="section-heading">Queue</h1>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">01</p>
+                        <img src="assets/images/played-song/played-song.png">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Eastside</p>
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">02</p>
+                        <img src="assets/images/played-song/starboy.jfif">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Starboy</p>
+                            <p class="small-text marquee-text">TheWeekend</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">03</p>
+                        <img src="assets/images/played-song/played-song.png">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Eastside</p>
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">04</p>
+                        <img src="assets/images/played-song/letmedown.jpg">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Let Me Down</p>
+                            <p class="small-text marquee-text">Alec Benjamin</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">05</p>
+                        <img src="assets/images/played-song/played-song.png">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Eastside</p>
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">06</p>
+                        <img src="assets/images/played-song/starboy.jfif">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Starboy</p>
+                            <p class="small-text marquee-text">TheWeekend</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">07</p>
+                        <img src="assets/images/played-song/played-song.png">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Eastside</p>
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">08</p>
+                        <img src="assets/images/played-song/letmedown.jpg">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Let Me Down</p>
+                            <p class="small-text marquee-text">Alec Benjamin</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">09</p>
+                        <img src="assets/images/played-song/starboy.jfif">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Starboy</p>
+                            <p class="small-text marquee-text">TheWeekend</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">10</p>
+                        <img src="assets/images/played-song/letmedown.jpg">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Let Me Down</p>
+                            <p class="small-text marquee-text">Alec Benjamin</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">11</p>
+                        <img src="assets/images/played-song/played-song.png">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Eastside</p>
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">12</p>
+                        <img src="assets/images/played-song/starboy.jfif">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Starboy</p>
+                            <p class="small-text marquee-text">TheWeekend</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                
+                
+            </ol>
+        </div>
+        
+    </div>
+
+
+
+    <!-- MAIN IS ON THE LEFT SIDE WITH WIDTH OF 70% AND THEN BECOMES 100% BELOW SCREEN SIZE OF 700px -->
+    <main>
+
+        <!-- CAROUSEL section -->
+        <section id="carousel">
+            <div id="carousel-container">
+                <div class="carousel-item" id="item-1">
+                    <h1>New Releases</h1>
+                </div>
+                <div class="carousel-item" id="item-2">
+                    <h1>Latest Hindi Hits</h1>
+                </div>
+                <div class="carousel-item" id="item-3">
+                    <h1>International New Releases</h1>
+                </div>
+            </div>
+            <div id="carousel-indicators">
+                <a href="#item-1"></a>
+                <a href="#item-2"></a>
+                <a href="#item-3"></a>
+            </div>
+        </section>
+
+        <!-- LATEST-RELEASE section -->
+        <section id="latest-release">
+            <h1 class="section-heading">
+                Latest Release
+            </h1>
+            <!--  -->
+            <div class="flex-wrap-container">
+                <!--  -->
+                <div class="flex-wrap-item">
+
+                    <div class="image-link-div">
+                        <img src="assets/images/played-song/played-song.png">
+                        <a href="#music-player-eastside">
+                            <i class="fas fa-play-circle"></i>                                
+                        </a>
+                    </div>
+                    
+                    <div class="music-name-div">
+                        <p class="marquee-text big-text">EastSide</p>
+                        <p class="marquee-text small-text">12 Aug 2020</p>
+                    </div>
+
+                    <div class="extra-options-div">
+                        <select>
+                            <option disabled>Play</option>
+                            <option disabled>Add to queue</option>
+                            <option disabled>add to playlist</option>
+                        </select>
+                        <div class="select-background"></div>
+                        <p class="small-text">4.44</p>
+                    </div>
+
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+
+                    <div class="image-link-div">
+                        <img src="assets/images/played-song/letmedown.jpg">
+                        <a href="#music-player-letmedown">
+                            <i class="fas fa-play-circle"></i>                                
+                        </a>
+                    </div>
+                    
+                    <div class="music-name-div">
+                        <p class="marquee-text big-text">Let Me Down</p>
+                        <p class="marquee-text small-text">12 Aug 2020</p>
+                    </div>
+
+                    <div class="extra-options-div">
+                        <select>
+                            <option disabled>Play</option>
+                            <option disabled>Add to queue</option>
+                            <option disabled>add to playlist</option>
+                        </select>
+                        <div class="select-background"></div>
+                        <p class="small-text">4.44</p>
+                    </div>
+
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+
+                    <div class="image-link-div">
+                        <img src="assets/images/played-song/starboy.jfif">
+                        <a href="#music-player-starboy">
+                            <i class="fas fa-play-circle"></i>                                
+                        </a>
+                    </div>
+                    
+                    <div class="music-name-div">
+                        <p class="marquee-text big-text">Starboy</p>
+                        <p class="marquee-text small-text">12 Aug 2020</p>
+                    </div>
+
+                    <div class="extra-options-div">
+                        <select>
+                            <option disabled>Play</option>
+                            <option disabled>Add to queue</option>
+                            <option disabled>add to playlist</option>
+                        </select>
+                        <div class="select-background"></div>
+                        <p class="small-text">4.44</p>
+                    </div>
+
+                </div>
+
+                <!--  -->
+                <div class="flex-wrap-item">
+
+                    <div class="image-link-div">
+                        <img src="assets/images/played-song/letmedown.jpg">
+                        <a href="#music-player-letmedown">
+                            <i class="fas fa-play-circle"></i>                                
+                        </a>
+                    </div>
+                    
+                    <div class="music-name-div">
+                        <p class="marquee-text big-text">Let Me Down</p>
+                        <p class="marquee-text small-text">12 Aug 2020</p>
+                    </div>
+
+                    <div class="extra-options-div">
+                        <select>
+                            <option disabled>Play</option>
+                            <option disabled>Add to queue</option>
+                            <option disabled>add to playlist</option>
+                        </select>
+                        <div class="select-background"></div>
+                        <p class="small-text">4.44</p>
+                    </div>
+
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+
+                    <div class="image-link-div">
+                        <img src="assets/images/played-song/letmedown.jpg">
+                        <a href="#music-player-letmedown">
+                            <i class="fas fa-play-circle"></i>                                
+                        </a>
+                    </div>
+                    
+                    <div class="music-name-div">
+                        <p class="marquee-text big-text">Let Me Down</p>
+                        <p class="marquee-text small-text">12 Aug 2020</p>
+                    </div>
+
+                    <div class="extra-options-div">
+                        <select>
+                            <option disabled>Play</option>
+                            <option disabled>Add to queue</option>
+                            <option disabled>add to playlist</option>
+                        </select>
+                        <div class="select-background"></div>
+                        <p class="small-text">4.44</p>
+                    </div>
+
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+
+                    <div class="image-link-div">
+                        <img src="assets/images/played-song/starboy.jfif">
+                        <a href="#music-player-starboy">
+                            <i class="fas fa-play-circle"></i>                                
+                        </a>
+                    </div>
+                    
+                    <div class="music-name-div">
+                        <p class="marquee-text big-text">Starboy</p>
+                        <p class="marquee-text small-text">12 Aug 2020</p>
+                    </div>
+
+                    <div class="extra-options-div">
+                        <select>
+                            <option disabled>Play</option>
+                            <option disabled>Add to queue</option>
+                            <option disabled>add to playlist</option>
+                        </select>
+                        <div class="select-background"></div>
+                        <p class="small-text">4.44</p>
+                    </div>
+
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+
+                    <div class="image-link-div">
+                        <img src="assets/images/played-song/played-song.png">
+                        <a href="#music-player-eastside">
+                            <i class="fas fa-play-circle"></i>                                
+                        </a>
+                    </div>
+                    
+                    <div class="music-name-div">
+                        <p class="marquee-text big-text">EastSide</p>
+                        <p class="marquee-text small-text">12 Aug 2020</p>
+                    </div>
+
+                    <div class="extra-options-div">
+                        <select>
+                            <option disabled>Play</option>
+                            <option disabled>Add to queue</option>
+                            <option disabled>add to playlist</option>
+                        </select>
+                        <div class="select-background"></div>
+                        <p class="small-text">4.44</p>
+                    </div>
+
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+
+                    <div class="image-link-div">
+                        <img src="assets/images/played-song/starboy.jfif">
+                        <a href="#music-player-starboy">
+                            <i class="fas fa-play-circle"></i>                                
+                        </a>
+                    </div>
+                    
+                    <div class="music-name-div">
+                        <p class="marquee-text big-text">Starboy</p>
+                        <p class="marquee-text small-text">12 Aug 2020</p>
+                    </div>
+
+                    <div class="extra-options-div">
+                        <select>
+                            <option disabled>Play</option>
+                            <option disabled>Add to queue</option>
+                            <option disabled>add to playlist</option>
+                        </select>
+                        <div class="select-background"></div>
+                        <p class="small-text">4.44</p>
+                    </div>
+
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+
+                    <div class="image-link-div">
+                        <img src="assets/images/played-song/played-song.png">
+                        <a href="#music-player-eastside">
+                            <i class="fas fa-play-circle"></i>                                
+                        </a>
+                    </div>
+                    
+                    <div class="music-name-div">
+                        <p class="marquee-text big-text">EastSide</p>
+                        <p class="marquee-text small-text">12 Aug 2020</p>
+                    </div>
+
+                    <div class="extra-options-div">
+                        <select>
+                            <option disabled>Play</option>
+                            <option disabled>Add to queue</option>
+                            <option disabled>add to playlist</option>
+                        </select>
+                        <div class="select-background"></div>
+                        <p class="small-text">4.44</p>
+                    </div>
+
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+
+                    <div class="image-link-div">
+                        <img src="assets/images/played-song/played-song.png">
+                        <a href="#music-player-eastside">
+                            <i class="fas fa-play-circle"></i>                                
+                        </a>
+                    </div>
+                    
+                    <div class="music-name-div">
+                        <p class="marquee-text big-text">EastSide</p>
+                        <p class="marquee-text small-text">12 Aug 2020</p>
+                    </div>
+
+                    <div class="extra-options-div">
+                        <select>
+                            <option disabled>Play</option>
+                            <option disabled>Add to queue</option>
+                            <option disabled>add to playlist</option>
+                        </select>
+                        <div class="select-background"></div>
+                        <p class="small-text">4.44</p>
+                    </div>
+
+                </div>
+                <!--  -->
+            </div>
+        </section>
+        <!-- POPULAR ARTISTS section -->
+        <section id="popular-artists">
+            <h1 class="section-heading">
+                Popular Artists
+            </h1>
+
+            <div class="flex-row-container">
+                <!--  -->
+                <div class="flex-row-item">
+                    <a>
+                        <img src="assets/images/artist-photos/bruno.jpg">
+                    </a>
+                    <p class="marquee-text">
+                        Bruno Mars
+                    </p>
+                </div>
+                <!--  -->
+                <div class="flex-row-item">
+                    <a>
+                        <img src="assets/images/artist-photos/charlie.jpg">
+                    </a>
+                    <p class="marquee-text">
+                        Charlie Puth
+                    </p>
+                </div>
+                <!--  -->
+                <div class="flex-row-item">
+                    <a href="halsey.html">
+                        <img src="assets/images/artist-photos/halsey.jpg">
+                    </a>
+                    <p class="marquee-text">
+                        Halsey
+                    </p>
+                </div>
+                <!--  -->
+                <div class="flex-row-item">
+                    <a>
+                        <img src="assets/images/artist-photos/khalid.jpg">
+                    </a>
+                    <p class="marquee-text">
+                        Khalid
+                    </p>
+                </div>
+                <!--  -->
+                <div class="flex-row-item">
+                    <a>
+                        <img src="assets/images/artist-photos/zayn.jpg">
+                    </a>
+                    <p class="marquee-text">
+                        Zyan
+                    </p>
+                </div>
+                <!--  -->
+                <div class="flex-row-item">
+                    <a>
+                        <img src="assets/images/artist-photos/imagine.jpg">
+                    </a>
+                    <p class="marquee-text">
+                        Imagine Dragons
+                    </p>
+                </div>
+                <!--  -->
+            </div>
+
+            </div>
+        </section>
+
+        <!-- GENRES SMALL -->
+        <section id="genre-small">
+
+            <div id="genre-banner">
+                <img src="assets/images/banners/radio.png">
+            </div>
+
+            <div class="flex-row-container">
+                
+                <div class="flex-row-item">
+                    <img src="assets/images/genres/chill.jpg">
+                    <p class="marquee-text">Chill</p>
+                </div>
+                <div class="flex-row-item">
+                    <img src="assets/images/genres/love.jpg">
+                    <p class="marquee-text">Love</p>
+                </div>
+                <div class="flex-row-item">
+                    <img src="assets/images/genres/pop.jpg">
+                    <p class="marquee-text">Pop</p>
+                </div>
+                <div class="flex-row-item">
+                    <img src="assets/images/genres/retro.jpg">
+                    <p class="marquee-text">Retro</p>
+                </div>
+                <div class="flex-row-item">
+                    <img src="assets/images/genres/rock.jpg">
+                    <p class="marquee-text">Rock</p>
+                </div>
+                <div class="flex-row-item">
+                    <img src="assets/images/genres/workout.jpg">
+                    <p class="marquee-text">Workout</p>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <!-- GENRE BIG -->
+        <section id="genre-big">
+            <div class="flex-row-container">
+                <div class="flex-row-item">
+                    <img src="assets/images/genres/love.jpg">
+                    <p>Romance</p>
+                </div>
+
+                <div class="flex-row-item">
+                    <img src="assets/images/genres/rock.jpg">
+                    <p>Party</p>
+                </div>
+
+                <div class="flex-row-item">
+                    <img src="assets/images/genres/pop.jpg">
+                    <p>Pop</p>
+                </div>
+            </div>
+        </section>
+
+        <!--  -->
+        <!--  -->
+        <!-- LATEST ENGLISH SECTION -->
+        <section id="latest-english">
+            <h1 class="section-heading">
+                Latest English
+            </h1>
+            <div class="flex-wrap-container">
+                <div class="flex-wrap-item">
+                    <a href="#music-player-eastside">
+                        <img src="assets/images/played-song/played-song.png">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Eastside</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-letmedown">
+                        <img src="assets/images/played-song/letmedown.jpg">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Let Me Down</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-eastside">
+                        <img src="assets/images/played-song/played-song.png">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Eastside</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-starboy">
+                        <img src="assets/images/played-song/starboy.jfif">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Starboy</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-letmedown">
+                        <img src="assets/images/played-song/letmedown.jpg">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Let Me Down</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-starboy">
+                        <img src="assets/images/played-song/starboy.jfif">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Starboy</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-letmedown">
+                        <img src="assets/images/played-song/letmedown.jpg">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Let Me Down</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-starboy">
+                        <img src="assets/images/played-song/starboy.jfif">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Starboy</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-eastside">
+                        <img src="assets/images/played-song/played-song.png">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Eastside</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+            </div>
+                
+            </div>
+        </section>
+        
+        <!-- Latest Hindi Section -->
+        <section id="latest-hindi">
+            <h1 class="section-heading">
+                Latest Hindi
+            </h1>
+            <div class="flex-wrap-container">
+                <div class="flex-wrap-item">
+                    <a href="#music-player-eastside">
+                        <img src="assets/images/played-song/played-song.png">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Eastside</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-letmedown">
+                        <img src="assets/images/played-song/letmedown.jpg">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Let Me Down</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-eastside">
+                        <img src="assets/images/played-song/played-song.png">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Eastside</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-starboy">
+                        <img src="assets/images/played-song/starboy.jfif">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Starboy</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-letmedown">
+                        <img src="assets/images/played-song/letmedown.jpg">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Let Me Down</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-starboy">
+                        <img src="assets/images/played-song/starboy.jfif">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Starboy</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-letmedown">
+                        <img src="assets/images/played-song/letmedown.jpg">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Let Me Down</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-starboy">
+                        <img src="assets/images/played-song/starboy.jfif">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Starboy</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+                    <a href="#music-player-eastside">
+                        <img src="assets/images/played-song/played-song.png">
+                    </a>
+                    <div class="marquee-div">
+                        <p class="big-text marquee-text">Eastside</p>
+                    </div>
+                    <p class="small-text">AUG 11,2021</p>
+                </div>
+            </div>
+                
+            </div>
+        </section>                    
+    </main>
+
+
+    <!-- ASIDE (SEPARATE FROM MAIN) -->
+    <!-- ON THE RIGHT SIDE  -->
+    <!-- IN LOWER SCREEN WIDTH THE ASIDE SECTION IS VISIBLE THROUGH THE HAMBURGER SIGN i.e. THE QUEUE IS IN THE SMALL NAVBAR SECTION FOR LOWER SCREEN WIDTHS -->
+    <aside class="queue">
+
+        <div class="queue-header">
+            <h1>Queue</h1>            
+            <select>
+                <option>queue</option>
+                <option>playlist</option>
+            </select>
+        </div>
+
+        <!-- CONTAINER STARTS -->
+        <ol class="queue-container">
+            <li class="queue-item">
+                <div class="queue-item-left">
+                    <p class="small-text">01</p>
+                    <img src="assets/images/played-song/played-song.png">
+                    <div class="queue-music-name">
+
+                        <div class="marquee-div">
+                            <p class="big-text marquee-text">Eastside</p>
+                        </div>
+                        <div class="marquee-div">
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+
+                    </div>
+                </div>
+                <i class="far fa-heart"></i>
+            </li>
+            <li class="queue-item">
+                <div class="queue-item-left">
+                    <p class="small-text">02</p>
+                    <img src="assets/images/played-song/starboy.jfif">
+                    <div class="queue-music-name">
+                        <div class="marquee-div">
+                            <p class="big-text marquee-text">Starboy</p>
+                        </div>
+                        <div class="marquee-div">
+                            <p class="small-text marquee-text">TheWeekend</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="far fa-heart"></i>
+            </li>
+            <li class="queue-item">
+                <div class="queue-item-left">
+                    <p class="small-text">03</p>
+                    <img src="assets/images/played-song/played-song.png">
+                    <div class="queue-music-name">
+                                                <div class="marquee-div">
+                            <p class="big-text marquee-text">Eastside</p>
+                        </div>
+                        <div class="marquee-div">
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="far fa-heart"></i>
+            </li>
+            <li class="queue-item">
+                <div class="queue-item-left">
+                    <p class="small-text">04</p>
+                    <img src="assets/images/played-song/letmedown.jpg">
+                    <div class="queue-music-name">
+                        <!--  -->
+                        <div class="marquee-div">
+                            <p class="big-text marquee-text">Let Me Down asdasdasd</p>
+                        </div>
+                        <div class="marquee-div">
+                            <p class="small-text marquee-text">Alec Benjamin</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <i class="far fa-heart"></i>
+            </li>
+            <li class="queue-item">
+                <div class="queue-item-left">
+                    <p class="small-text">05</p>
+                    <img src="assets/images/played-song/played-song.png">
+                    <div class="queue-music-name">
+                        <div class="marquee-div">
+                            <p class="big-text marquee-text">Eastside</p>
+                        </div>
+                        <div class="marquee-div">
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="far fa-heart"></i>
+            </li>
+            <li class="queue-item">
+                <div class="queue-item-left">
+                    <p class="small-text">06</p>
+                    <img src="assets/images/played-song/starboy.jfif">
+                    <div class="queue-music-name">
+                        <div class="marquee-div">
+                            <p class="big-text marquee-text">Starboy</p>
+                        </div>
+                        <div class="marquee-div">
+                            <p class="small-text marquee-text">TheWeekend</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="far fa-heart"></i>
+            </li>
+            <li class="queue-item">
+                <div class="queue-item-left">
+                    <p class="small-text">07</p>
+                    <img src="assets/images/played-song/played-song.png">
+                    <div class="queue-music-name">
+                        <div class="marquee-div">
+                            <p class="big-text marquee-text">Eastside</p>
+                        </div>
+                        <div class="marquee-div">
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="far fa-heart"></i>
+            </li>
+            <li class="queue-item">
+                <div class="queue-item-left">
+                    <p class="small-text">08</p>
+                    <img src="assets/images/played-song/letmedown.jpg">
+                    <div class="queue-music-name">
+                        <div class="marquee-div">
+                            <p class="big-text marquee-text">Let Me Down asdasdasd</p>
+                        </div>
+                        <div class="marquee-div">
+                            <p class="small-text marquee-text">Alec Benjamin</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="far fa-heart"></i>
+            </li>
+            <li class="queue-item">
+                <div class="queue-item-left">
+                    <p class="small-text">09</p>
+                    <img src="assets/images/played-song/starboy.jfif">
+                    <div class="queue-music-name">
+                        <div class="marquee-div">
+                            <p class="big-text marquee-text">Starboy</p>
+                        </div>
+                        <div class="marquee-div">
+                            <p class="small-text marquee-text">TheWeekend</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="far fa-heart"></i>
+            </li>
+            <li class="queue-item">
+                <div class="queue-item-left">
+                    <p class="small-text">10</p>
+                    <img src="assets/images/played-song/letmedown.jpg">
+                    <div class="queue-music-name">
+                        <div class="marquee-div">
+                            <p class="big-text marquee-text">Let Me Down</p>
+                        </div>
+                        <div class="marquee-div">
+                            <p class="small-text marquee-text">Alec Benjamin</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="far fa-heart"></i>
+            </li>
+            <li class="queue-item">
+                <div class="queue-item-left">
+                    <p class="small-text">11</p>
+                    <img src="assets/images/played-song/played-song.png">
+                    <div class="queue-music-name">
+                        <div class="marquee-div">
+                            <p class="big-text marquee-text">Eastside</p>
+                        </div>
+                        <div class="marquee-div">
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="far fa-heart"></i>
+            </li>
+            <li class="queue-item">
+                <div class="queue-item-left">
+                    <p class="small-text">12</p>
+                    <img src="assets/images/played-song/starboy.jfif">
+                    <div class="queue-music-name">
+
+                        <div class="marquee-div">
+                            <p class="big-text marquee-text">Starboy</p>
+                        </div>
+                        <div class="marquee-div">
+                            <p class="small-text marquee-text">TheWeekend</p>
+                        </div>
+                       
+                    </div>
+                </div>
+                <i class="far fa-heart"></i>
+            </li>
+            
+            
+        </ol>
+    </aside>
+
+    <!-- MUSIC PLAYER (FINALLY) -->
+        <!-- music player section -->
+        <div id="music-player-eastside" class="music-player">
+            <div class="music-info">
+                <img src="assets/images/played-song/played-song.png" alt="eastside cover">
+                <div class="music-data">
+                    <div class="upper">
+                        <p>
+                            EastSide by Benny Balco
+                        </p>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-ban"></i>
+                        </div>
+                    </div>
+                    <div class="lower">
+                        <p>
+                            Benny Balco
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="music-timeline">
+                <audio src="songs/eastside.mp3"  controls></audio>
+            </div>
+            <div class="music-icons">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-record-vinyl"></i>
+                <i class="fas fa-compress"></i>
+            </div>
+        </div>
+        <!--  -->
+        <div id="music-player-letmedown" class="music-player">
+            <!-- DIVIDED IN 3 DIVS THEN LATER ADJUSTS ACCORDINGLY TO LOWER SCREEN WIDTH -->
+            <div class="music-info">
+                <img src="assets/images/played-song/letmedown.jpg" alt="letmedown cover">
+                <div class="music-data">
+                    <div class="upper">
+                        <p>
+                            Let Me Down by Alec Benjamin
+                        </p>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-ban"></i>
+                        </div>
+                    </div>
+                    <div class="lower">
+                        <p>
+                            Alec Benjamin
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="music-timeline">
+                <audio src="songs/letmedown.mp3" controls></audio>
+            </div>
+            <div class="music-icons">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-record-vinyl"></i>
+                <i class="fas fa-compress"></i>
+            </div>
+        </div>
+        <!--  -->
+        <div id="music-player-starboy" class="music-player">
+            <div class="music-info inner-div">
+                <img src="assets/images/played-song/starboy.jfif" alt="starboy cover">
+                <div class="music-data">
+                    <div class="upper">
+                        <p>
+                            Starboy by TheWeekend
+                        </p>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-ban"></i>
+                        </div>
+                    </div>
+                    <div class="lower">
+                        <p>
+                            TheWeekend
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="music-timeline inner-div">
+                <audio src="songs/starboy.mp3" controls></audio>
+            </div>
+            <div class="music-icons inner-div">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-record-vinyl"></i>
+                <i class="fas fa-compress"></i>
+            </div>
+        </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Made by <span id="heart">NIKS</span>	</p>
+    </footer>
+
+
+
+</body>
+</html>

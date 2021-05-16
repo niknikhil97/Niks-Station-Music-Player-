@@ -1,0 +1,70 @@
+main {
+    width: 100%;
+}
+
+/* general */
+aside {
+    display: none;
+}
+/* QUEUE */
+#small-navbar .queue {
+    display: none;
+}
+#small-navbar .queue {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border: 0.1rem white solid;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+}
+#small-navbar .queue ol {
+    width: 100%;
+    align-items: center;
+    padding-left: 1rem;
+}
+/* CHANGES TO NAVBAR */
+#navbar #search-icon {
+    display: none;
+}
+#navbar a:nth-child(2) {
+    display: none;
+}
+
+#navbar #ham-container {
+    display: flex;
+}
+/* SMALLNAVBAR QUEUE */
+#small-navbar .queue {
+    display: block;
+}
+
+/*  */
+.music-player {
+    flex-direction: column;
+    height: 5rem;
+}
+
+.music-player .music-info {
+    width: 100%;
+    height: 2rem;
+    font-size: 0.7rem;
+}
+.music-player .music-info img {
+    height: 100%;
+    width: auto;
+    border-radius: 0;
+}
+
+.music-player .music-timeline {
+    height: 2.5rem;
+    width: 100%;
+    overflow: hidden;
+    order: 3;
+    position: relative;
+    top: -0.2rem;
+}
+
+.music-icons {
+    display: none;
+}

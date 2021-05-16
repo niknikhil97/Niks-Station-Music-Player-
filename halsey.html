@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTIST HALSEY</title>
+    <meta name="description" content="Niks Station Music Player Artist Halsey Page">
+    <meta name="keywords" content="niks, station, music, player , halsey , playlist , queue">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/general_style.css" type="text/css">
+    <link rel="stylesheet" href="assets/halsey.css" type="text/css">
+    <link rel="stylesheet" media="screen and (max-width:950px)" href="assets/halsey_tab_mobile.css" type="text/css">
+    <script src="https://kit.fontawesome.com/acb379f12b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- THIS PAGE HAS SIMILAR STRUCTURE TO THE index.html PAGE -->
+    <!-- MADE WITH DESKTOP FIRST APPROACH -->
+
+
+    <!-- THE style.css FILE IS NOT USED IN ORDER TO PREVENT OVERRIDING OF STYLES and THUS, THE SAME STYLES ARE COPIED TO THE NEW FILE i.e. halsey.css -->
+    
+    <!-- THE MAIN NAVBAR -->
+    <header>
+        <nav id="navbar">
+                <!-- SOME ICONS ARE HIDDEN AT SOME WIDTH LEVEL AND ADJUSTS ACCRODINGLY -->
+                <div id="logo-div">
+                    <img src="assets/images/Website Logo/Logo.png" alt="website logo">
+                    <div id="site-name-div">
+                        <p>Niks</p>
+                        <p>Studio</p>
+                    </div>
+                </div>
+                <a href="index.html">Home</a>
+                <div class="search-div" >
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search">
+                    <i class="fas fa-microphone-alt"></i>
+                </div>
+                <a href="#small-navbar">
+                    <i class="fas fa-search" id="search-icon"></i>
+                </a>
+                <a id="ham-container" href="#small-navbar">
+                    <div class="ham"></div>
+                    <div class="ham"></div>
+                    <div class="ham"></div>
+                </a>
+
+                <i class="fas fa-bell"></i>
+                <img src="assets/images/profile_picture.jpg">
+            </div>
+        </nav>
+    </header>
+
+    <!-- HIDDEN NAVBAR (ONLY ACCESSIBLE IN WIDTH LESS THAN 950px AFTER CLICKING THE HAMBURGER ICON) -->
+    <div id="small-navbar">
+        <a id="close" href="#">
+            <i class="far fa-times-circle"></i>
+        </a>
+        <div class="search-div" >
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search">
+            <i class="fas fa-microphone-alt"></i>
+        </div>
+        <a href="index.html">Home</a>
+        <div class="queue">
+            <h1 class="section-heading">
+                Queue
+            </h1>
+            <ol class="queue-container">
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">01</p>
+                        <img src="assets/images/played-song/played-song.png">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Eastside</p>
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">02</p>
+                        <img src="assets/images/played-song/starboy.jfif">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Starboy</p>
+                            <p class="small-text marquee-text">TheWeekend</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">03</p>
+                        <img src="assets/images/played-song/played-song.png">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Eastside</p>
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">04</p>
+                        <img src="assets/images/played-song/letmedown.jpg">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Let Me Down</p>
+                            <p class="small-text marquee-text">Alec Benjamin</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">05</p>
+                        <img src="assets/images/played-song/played-song.png">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Eastside</p>
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">06</p>
+                        <img src="assets/images/played-song/starboy.jfif">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Starboy</p>
+                            <p class="small-text marquee-text">TheWeekend</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">07</p>
+                        <img src="assets/images/played-song/played-song.png">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Eastside</p>
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">08</p>
+                        <img src="assets/images/played-song/letmedown.jpg">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Let Me Down</p>
+                            <p class="small-text marquee-text">Alec Benjamin</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">09</p>
+                        <img src="assets/images/played-song/starboy.jfif">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Starboy</p>
+                            <p class="small-text marquee-text">TheWeekend</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">10</p>
+                        <img src="assets/images/played-song/letmedown.jpg">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Let Me Down</p>
+                            <p class="small-text marquee-text">Alec Benjamin</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">11</p>
+                        <img src="assets/images/played-song/played-song.png">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Eastside</p>
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-item-left">
+                        <p class="small-text">12</p>
+                        <img src="assets/images/played-song/starboy.jfif">
+                        <div class="queue-music-name">
+                            <p class="big-text marquee-text">Starboy</p>
+                            <p class="small-text marquee-text">TheWeekend</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                </li>
+                
+                
+            </ol>
+        </div>
+        
+    </div>
+
+
+
+    <main>
+        <section id="artist-banner">
+            <div id="artist-image">
+                <img src="assets/images/halsey.jpg">
+                <div class="shadow"></div>
+            </div>
+            <div id="artist-info">
+                <div class="artist-name-div">
+                    <h1>Halsey</h1>
+                    <p class="small-text">
+                        851 Followers
+                    </p>
+                </div>
+                <p class="small-text">
+                    American singer and songwriter
+                </p>
+                <p class="para">
+                    Ashley Nicolette Frangipane (born September 29, 1994), known professionally as Halsey, is an American singer and songwriter. Gaining attention from self-released music on social media platforms, she was signed by Astralwerks in 2014 and released her debut EP, Room 93, later that year.
+                </p>
+                <div class="buttons-div">
+                    <button>Play All</button>
+                    <button>Follow</button>
+                </div>
+                <p class="lower-text">247 Tracks | 128 Albumns</p>
+            </div>
+
+        </section>
+
+
+        <!--  -->
+
+        <section id="artist-songs-list">
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/control.jpg">
+                <div class="song-name-div">
+                    <p>Control</p>
+                    <p class="small-text">Badlands</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/withoutme.png">
+                <div class="song-name-div">
+                    <p>Without Me</p>
+                    <p class="small-text">Without Me</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/bekind.jpg">
+                <div class="song-name-div">
+                    <p>Be Kind</p>
+                    <p class="small-text">Collabs</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/control.jpg">
+                <div class="song-name-div">
+                    <p>Control</p>
+                    <p class="small-text">Badlands</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/withoutme.png">
+                <div class="song-name-div">
+                    <p>Without Me</p>
+                    <p class="small-text">Without Me</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/bekind.jpg">
+                <div class="song-name-div">
+                    <p>Be Kind</p>
+                    <p class="small-text">Collabs</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/withoutme.png">
+                <div class="song-name-div">
+                    <p>Without Me</p>
+                    <p class="small-text">Without Me</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/bekind.jpg">
+                <div class="song-name-div">
+                    <p>Be Kind</p>
+                    <p class="small-text">Collabs</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/bekind.jpg">
+                <div class="song-name-div">
+                    <p>Be Kind</p>
+                    <p class="small-text">Collabs</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/withoutme.png">
+                <div class="song-name-div">
+                    <p>Without Me</p>
+                    <p class="small-text">Without Me</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/bekind.jpg">
+                <div class="song-name-div">
+                    <p>Be Kind</p>
+                    <p class="small-text">Collabs</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/control.jpg">
+                <div class="song-name-div">
+                    <p>Control</p>
+                    <p class="small-text">Badlands</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/bekind.jpg">
+                <div class="song-name-div">
+                    <p>Be Kind</p>
+                    <p class="small-text">Collabs</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/control.jpg">
+                <div class="song-name-div">
+                    <p>Control</p>
+                    <p class="small-text">Badlands</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/withoutme.png">
+                <div class="song-name-div">
+                    <p>Without Me</p>
+                    <p class="small-text">Without Me</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/bekind.jpg">
+                <div class="song-name-div">
+                    <p>Be Kind</p>
+                    <p class="small-text">Collabs</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/control.jpg">
+                <div class="song-name-div">
+                    <p>Control</p>
+                    <p class="small-text">Badlands</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/withoutme.png">
+                <div class="song-name-div">
+                    <p>Without Me</p>
+                    <p class="small-text">Without Me</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="artist-song-div">
+                <p class="small-text">01</p>
+                <img src="assets/images/halsey-songs/control.jpg">
+                <div class="song-name-div">
+                    <p>Control</p>
+                    <p class="small-text">Badlands</p>
+                </div>
+                <div class="icons-div">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <!--  -->
+        </section>
+    </main>
+
+
+    <!--  -->
+    <!--  -->
+
+    <aside>
+        <section id="similar-artists">
+            <div class="header-div">
+                <h1 class="section-heading">
+                    Similar Artists
+                </h1>
+                <p class="small-text">See All</p>
+            </div>
+            <!--  -->
+            <div class="flex-wrap-container">
+                <!--  -->
+                <div class="flex-wrap-item">
+
+                    <div class="image-link-div">
+                        <img src="assets/images/played-song/played-song.png">
+                        <a href="#music-player-eastside">
+                            <i class="fas fa-play-circle"></i>                                
+                        </a>
+                    </div>
+                    
+                    <div class="music-name-div">
+                        <div class="marquee-div">
+                            <p class="big-text marquee-text">Eastside</p>
+                        </div>
+                        <div class="marquee-div">
+                            <p class="small-text marquee-text">Benny Balco</p>
+                        </div>
+                    </div>
+
+                    <div class="extra-options-div">
+                        <select>
+                            <option disabled>Play</option>
+                            <option disabled>Add to queue</option>
+                            <option disabled>add to playlist</option>
+                        </select>
+                        <div class="select-background"></div>
+                        <p class="small-text">4.44</p>
+                    </div>
+
+                </div>
+                <!--  -->
+                <div class="flex-wrap-item">
+
+                    <div class="image-link-div">
+                        <img src="assets/images/played-song/letmedown.jpg">
+                        <a href="#music-player-letmedown">
+                            <i class="fas fa-play-circle"></i>                                
+                        </a>
+                    </div>
+                    
+                    <div class="music-name-div">
+                        <div class="marquee-div">
+                            <p class="big-text marquee-text">Let Me Down</p>
+                        </div>
+                        <div class="marquee-div">
+                            <p class="small-text marquee-text">Alec Benjamin</p>
+                        </div>
+                    </div>
+
+                    <div class="extra-options-div">
+                        <select>
+                            <option disabled>Play</option>
+                            <option disabled>Add to queue</option>
+                            <option disabled>add to playlist</option>
+                        </select>
+                        <div class="select-background"></div>
+                        <p class="small-text">4.44</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <section id="recently-played" >
+            <div class="header-div">
+                <h1 class="section-heading">
+                    Recently Played
+                </h1>
+                <p class="small-text">See All</p>
+            </div>
+            <div class="queue">
+                <ol class="queue-container">
+                    <li class="queue-item">
+                        <div class="queue-item-left">
+                            <p class="small-text">01</p>
+                            <img src="assets/images/played-song/played-song.png">
+                            <div class="queue-music-name">
+                                <div class="marquee-div">
+                                    <p class="big-text marquee-text">Eastside</p>
+                                </div>
+                                <div class="marquee-div">
+                                    <p class="small-text marquee-text">Benny Balco</p>
+                                </div>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </li>
+                    <li class="queue-item">
+                        <div class="queue-item-left">
+                            <p class="small-text">02</p>
+                            <img src="assets/images/played-song/starboy.jfif">
+                            <div class="queue-music-name">
+
+                                <div class="marquee-div">
+                                    <p class="big-text marquee-text">Starboy</p>
+                                </div>
+                                <div class="marquee-div">
+                                    <p class="small-text marquee-text">TheWeekend</p>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </li>
+                    <li class="queue-item">
+                        <div class="queue-item-left">
+                            <p class="small-text">03</p>
+                            <img src="assets/images/played-song/played-song.png">
+                            <div class="queue-music-name">
+                                <div class="marquee-div">
+                                    <p class="big-text marquee-text">Eastside</p>
+                                </div>
+                                <div class="marquee-div">
+                                    <p class="small-text marquee-text">Benny Balco</p>
+                                </div>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </li>
+                    <li class="queue-item">
+                        <div class="queue-item-left">
+                            <p class="small-text">04</p>
+                            <img src="assets/images/played-song/letmedown.jpg">
+                            <div class="queue-music-name">
+                                <p class="big-text marquee-text">Let Me Down</p>
+                                <p class="small-text marquee-text">Alec Benjamin</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </li>
+                    
+                    
+                    
+                </ol>
+
+            </div>
+
+        </section> 
+
+    </aside>
+
+
+    <!-- MUSIC PLAYER (FINALLY) -->
+        <!-- music player section -->
+        <div id="music-player-eastside" class="music-player">
+            <div class="music-info">
+                <img src="assets/images/played-song/played-song.png" alt="eastside cover">
+                <div class="music-data">
+                    <div class="upper">
+                        <p>
+                            EastSide by Benny Balco
+                        </p>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-ban"></i>
+                        </div>
+                    </div>
+                    <div class="lower">
+                        <p>
+                            Benny Balco
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="music-timeline">
+                <audio src="songs/eastside.mp3" controls></audio>
+            </div>
+            <div class="music-icons">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-record-vinyl"></i>
+                <i class="fas fa-compress"></i>
+            </div>
+        </div>
+        <!--  -->
+        <div id="music-player-letmedown" class="music-player">
+            <div class="music-info">
+                <img src="assets/images/played-song/letmedown.jpg" alt="letmedown cover">
+                <div class="music-data">
+                    <div class="upper">
+                        <p>
+                            Let Me Down by Alec Benjamin
+                        </p>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-ban"></i>
+                        </div>
+                    </div>
+                    <div class="lower">
+                        <p>
+                            Alec Benjamin
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="music-timeline">
+                <audio src="songs/letmedown.mp3" controls></audio>
+            </div>
+            <div class="music-icons">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-record-vinyl"></i>
+                <i class="fas fa-compress"></i>
+            </div>
+        </div>
+        <!--  -->
+        <div id="music-player-starboy" class="music-player">
+            <div class="music-info inner-div">
+                <img src="assets/images/played-song/starboy.jfif" alt="starboy cover">
+                <div class="music-data">
+                    <div class="upper">
+                        <p>
+                            Starboy by TheWeekend
+                        </p>
+                        <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-ban"></i>
+                        </div>
+                    </div>
+                    <div class="lower">
+                        <p>
+                            TheWeekend
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="music-timeline inner-div">
+                <audio src="songs/starboy.mp3" controls></audio>
+            </div>
+            <div class="music-icons inner-div">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-record-vinyl"></i>
+                <i class="fas fa-compress"></i>
+            </div>
+        </div>
+
+        <footer>
+            <p>Made by <span id="heart">NIKS</span>	</p>
+        </footer>
+
+
+
+</body>
+</html>

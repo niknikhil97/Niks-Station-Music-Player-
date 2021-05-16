@@ -1,0 +1,132 @@
+/* ADJUSTING MAIN AND ASIDE */
+main {
+    width: 100%;
+
+    padding: 6rem 2rem !important;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    left: 0;
+    top: 0;
+    width: 80%;
+    padding: 0 2rem;
+    align-items: center;
+}
+aside #recently-played,
+aside #similar-artists {
+    width: 100%;
+}
+
+/* NAVBAR CHANGES */
+
+#navbar #ham-container {
+    display: flex;
+}
+#navbar .search-div {
+    display: none;
+}
+#navbar a:nth-child(2) {
+    display: none;
+}
+
+/* SMALL NAVBAR STYLING */
+#small-navbar {
+    width: 100%;
+    display: none;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+#small-navbar .queue {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem white solid;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+}
+#small-navbar .queue ol {
+    width: 100%;
+    align-items: center;
+    padding-left: 1rem;
+}
+#small-navbar:target {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 50;
+    background-color: black;
+    top: 4rem;
+}
+#small-navbar .search-div {
+    margin: 2rem;
+}
+#small-navbar .search-div input {
+    padding: 0.3rem 2rem;
+}
+#close {
+    font-size: 2rem;
+}
+
+#similar-artists .flex-wrap-container .flex-wrap-item {
+    height: auto;
+}
+#similar-artists
+    .flex-wrap-container
+    .flex-wrap-item
+    .image-link-div {
+    height: 3rem;
+}
+
+/* MUSIC PLAYER */
+
+/*  */
+.music-player {
+    flex-direction: column;
+    height: 5rem;
+}
+
+.music-player .music-info {
+    width: 100%;
+    height: 2rem;
+    font-size: 0.7rem;
+}
+.music-player .music-info img {
+    height: 100%;
+    width: auto;
+    border-radius: 0;
+}
+
+.music-player .music-timeline {
+    height: 2.5rem;
+    width: 100%;
+    overflow: hidden;
+    order: 3;
+    position: relative;
+    top: -0.2rem;
+}
+
+.music-icons {
+    display: none;
+}
+
+/* EVEN LOWER WIDTH */
+@media screen and (max-width: 670px) {
+    #artist-banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #artist-banner #artist-image {
+        width: 10rem;
+    }
+
+    #artist-banner #artist-info {
+        width: 100%;
+    }
+}
